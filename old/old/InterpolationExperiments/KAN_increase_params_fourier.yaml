@@ -1,0 +1,69 @@
+experiments:
+    increase_params_1:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 10
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: true
+        MODEL: 'KAN'
+        layers:
+        - 8
+        - 8
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_params_2:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 10
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: true
+        MODEL: 'KAN'
+        layers:
+        - 8
+        - 8
+        - 8
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_params_3:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 10
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: true
+        MODEL: 'KAN'
+        layers:
+        - 16
+        - 16
+        - 16
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+
+    increase_params_4:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 10
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: true
+        MODEL: 'KAN'
+        layers:
+        - 16
+        - 16
+        - 16
+        - 16
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1

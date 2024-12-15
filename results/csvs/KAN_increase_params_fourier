@@ -1,0 +1,5 @@
+,BS,EPOCHS,FREQ,learnable_func,FourierFeatures,MODEL,layers,N_INPUT,X_MIN,X_MAX,Y_MIN,Y_MAX,params,L2%
+increase_params_1,16384,2500,10,circular_wave_interference,True,KAN,"[8, 8]",2,-1,1,-1,1,597,54.418064
+increase_params_2,16384,2500,10,circular_wave_interference,True,KAN,"[8, 8, 8]",2,-1,1,-1,1,1117,63.303017
+increase_params_3,16384,2500,10,circular_wave_interference,True,KAN,"[16, 16, 16]",2,-1,1,-1,1,4281,7.8268714
+increase_params_4,16384,2500,10,circular_wave_interference,True,KAN,"[16, 16, 16, 16]",2,-1,1,-1,1,6345,25.502432

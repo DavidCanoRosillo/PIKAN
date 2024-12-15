@@ -66,3 +66,6 @@ def sobol_sample(X0, X1, N, seed=None):
     points = X0 + points * (X1 - X0)
     
     return points
+
+if __name__ == "__main__":
+    pass

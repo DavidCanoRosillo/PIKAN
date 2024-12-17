@@ -1,0 +1,180 @@
+experiments:
+    increase_freq_1:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 1
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_2:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 2
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_3:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 3
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_4:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 4
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_5:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 5
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_6:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 6
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_7:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 7
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_8:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 8
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_9:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 9
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1
+
+    increase_freq_10:
+        BS: 16384
+        EPOCHS: 2500
+        FREQ: 10
+        learnable_func: "circular_wave_interference"
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1

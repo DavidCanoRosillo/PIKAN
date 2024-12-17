@@ -48,7 +48,7 @@ class FourierKAN(nn.Module):
             x = FourierFeats(self.layer_sizes[0])(x)
             layer_dims = list(self.layer_sizes) + [self.num_output]
         else:
-            layer_dims = [self.num_input] + list(self.layer_sizes) + [self.num_output],
+            layer_dims = [self.num_input] + list(self.layer_sizes) + [self.num_output]
 
         model = KAN(
             layer_dims=layer_dims,

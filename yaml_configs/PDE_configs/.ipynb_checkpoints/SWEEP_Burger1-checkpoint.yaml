@@ -1,0 +1,40 @@
+experiments:
+    burger_1:
+        # training parameters
+        BS: 32768
+        BS_BC: 2048
+        EPOCHS: 10000
+        EQUATION: "burgers_eq1"
+        
+        FourierFeatures: True
+        MODEL: 'PIRATE'
+        layers:
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        # in equation this param is time
+        Y_MIN: 0
+        Y_MAX: 1
+    
+    burger_2:
+        # training parameters
+        BS: 32768
+        BS_BC: 2048
+        EPOCHS: 10000
+        EQUATION: "burgers_eq1"
+        
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        # in equation this param is time
+        Y_MIN: 0
+        Y_MAX: 1

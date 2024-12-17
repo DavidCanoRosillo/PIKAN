@@ -1,0 +1,40 @@
+experiments:
+    heat_1:
+        # training parameters
+        BS: 8192
+        BS_BC: 2048
+        EPOCHS: 10000
+        EQUATION: "heat_eq1"
+        
+        FourierFeatures: True
+        MODEL: 'PIRATE'
+        layers:
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: 0
+        X_MAX: 1
+        # in equation this param is time
+        Y_MIN: 0
+        Y_MAX: 1
+    
+    heat_2:
+        # training parameters
+        BS: 8192
+        BS_BC: 2048
+        EPOCHS: 10000
+        EQUATION: "heat_eq1"
+        
+        FourierFeatures: True
+        MODEL: 'MLP'
+        layers:
+        - 64
+        - 64
+        - 64
+        N_INPUT: 2
+        X_MIN: 0
+        X_MAX: 1
+        # in equation this param is time
+        Y_MIN: 0
+        Y_MAX: 1

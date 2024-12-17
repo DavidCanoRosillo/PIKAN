@@ -1,11 +1,11 @@
-,BS,EPOCHS,FREQ,learnable_func,FourierFeatures,MODEL,layers,N_INPUT,X_MIN,X_MAX,Y_MIN,Y_MAX,params,L2%
-increase_freq_1,16384,2500,1,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,1.1427119
-increase_freq_2,16384,2500,2,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,1.0817444
-increase_freq_3,16384,2500,3,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,2.3159404
-increase_freq_4,16384,2500,4,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,2.8023891
-increase_freq_5,16384,2500,5,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,5.4085712
-increase_freq_6,16384,2500,6,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,4.153367
-increase_freq_7,16384,2500,7,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,18.007797
-increase_freq_8,16384,2500,8,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,20.588087
-increase_freq_9,16384,2500,9,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,52.62415
-increase_freq_10,16384,2500,10,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,48.46098
+,BS,EPOCHS,FREQ,learnable_func,FourierFeatures,MODEL,layers,N_INPUT,X_MIN,X_MAX,Y_MIN,Y_MAX,params,L2%,seconds
+increase_freq_1,16384,2500,1,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,0.96584195,2.9131784439086914
+increase_freq_2,16384,2500,2,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,1.0902035,1.5805933475494385
+increase_freq_3,16384,2500,3,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,2.0902462,1.5961496829986572
+increase_freq_4,16384,2500,4,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,2.637373,1.5827491283416748
+increase_freq_5,16384,2500,5,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,10.075033,1.5822217464447021
+increase_freq_6,16384,2500,6,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,4.4289794,1.6333529949188232
+increase_freq_7,16384,2500,7,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,24.584454,1.5801756381988525
+increase_freq_8,16384,2500,8,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,25.419353,1.560227632522583
+increase_freq_9,16384,2500,9,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,40.609295,1.6193413734436035
+increase_freq_10,16384,2500,10,circular_wave_interference,False,MLP,"[64, 64, 64, 64]",2,-1,1,-1,1,12737,44.924294,1.625232458114624

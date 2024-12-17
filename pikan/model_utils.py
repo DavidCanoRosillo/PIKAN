@@ -4,7 +4,7 @@ import jax
 import jax.numpy as jnp
 import optax
 from flax import linen as nn
-from typing import Callable
+from typing import Callable, Optional
 from dataclasses import field
 from typing import List
 from scipy.stats.qmc import Sobol
@@ -89,31 +89,27 @@ class PirateBlock(nn.Module):
     
     @nn.compact
     def __call__(self, x, U, V):
-        f = nn.Dense(self.num_hidden, kernel_init=self.kernel_init)(x)
-        f = nn.tanh(f)
+        eye = x
+
+        x = nn.tanh(nn.Dense(self.num_hidden, kernel_init=self.kernel_init)(x))  # f = tanh(Dense(x))
+        x = x * U + (1 - x) * V  # z_1
         
-        z_1 = f*U + (1-f)*V
-        g = nn.Dense(self.num_hidden, kernel_init=self.kernel_init)(z_1)
-        g = nn.tanh(g)
+        x = nn.tanh(nn.Dense(self.num_hidden, kernel_init=self.kernel_init)(x))  # g = tanh(Dense(z_1))
+        x = x * U + (1 - x) * V  # z_2
         
-        z_2 = g*U + (1-g)*V
-        h = nn.Dense(self.num_hidden, kernel_init=self.kernel_init)(z_2)
-        h = nn.tanh(h)
-        
-        alpha = self.param(
-            'alpha', lambda rng: 0.,
-        )
-        x_next = alpha*h + alpha*x
-        
-        return x_next
+        x = nn.tanh(nn.Dense(self.num_hidden, kernel_init=self.kernel_init)(x))  # h = tanh(Dense(z_2))
     
+        alpha = self.param('alpha', lambda rng: 0.)
         
+        return alpha * x + (1-alpha) * eye 
+    
 class PirateNet(nn.Module):
     kernel_init: Callable
     num_input: int
     num_output: int
     layer_sizes: List[int] = field(default_factory=list)
-
+    init_last_W: Optional = None  # This is the parameter that defaults to None
+    
     @nn.compact
     def __call__(self, x):
         # Add hidden layers
@@ -164,7 +160,6 @@ def gradf(f, idx, order=1):
         g = grad_fn(g, idx)
         
     return g
-
 
 def sobol_sample(X0, X1, N, seed=None):
     '''

@@ -1,0 +1,11 @@
+,BS,EPOCHS,FREQ,learnable_func,FourierFeatures,MODEL,layers,N_INPUT,X_MIN,X_MAX,Y_MIN,Y_MAX,params,L2%,seconds
+increase_freq_1,16384,2500,1,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,1.2384523,44.25174951553345
+increase_freq_2,16384,2500,2,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,1.1010861,44.531522274017334
+increase_freq_3,16384,2500,3,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,1.361753,44.41336131095886
+increase_freq_4,16384,2500,4,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,4.5130243,45.72795104980469
+increase_freq_5,16384,2500,5,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,5.611743,44.42631387710571
+increase_freq_6,16384,2500,6,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,5.0445976,44.50366759300232
+increase_freq_7,16384,2500,7,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,5.1453347,44.423073291778564
+increase_freq_8,16384,2500,8,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,15.746745,44.439911127090454
+increase_freq_9,16384,2500,9,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,16.773438,44.40976667404175
+increase_freq_10,16384,2500,10,circular_wave_interference,False,KAN,"[32, 32, 14]",2,-1,1,-1,1,12479,14.375764,45.75117492675781

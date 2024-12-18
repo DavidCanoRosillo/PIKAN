@@ -153,3 +153,6 @@ def get_pde_train_step(model, optimizer, loss_fn):
         return params, opt_state, loss, new_loc_w
 
     return train_step
+
+if __name__ == "__main__":
+    print("Correctly installed?")

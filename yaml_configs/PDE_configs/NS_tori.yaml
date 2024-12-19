@@ -1,0 +1,19 @@
+experiments:
+    helmholtz_1:
+        # training parameters
+        BS: 8192
+        BS_BC: 1024
+        EPOCHS: 10000
+        EQUATION: "helmholtz"
+        
+        FourierFeatures: True
+        MODEL: 'PIRATE'
+        layers:
+        - 32
+        - 32
+        - 32
+        N_INPUT: 2
+        X_MIN: -1
+        X_MAX: 1
+        Y_MIN: -1
+        Y_MAX: 1

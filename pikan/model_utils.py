@@ -16,7 +16,7 @@ from jaxkan.models.KAN import KAN
 class FourierFeats(nn.Module):
     num_output: int
     
-    std = 10
+    std = 5
     mean = 0
     
     @nn.compact

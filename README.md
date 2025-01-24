@@ -13,6 +13,9 @@ This repository contains implementations and experiments focused on function int
 - Solutions for Helmholtz, Heat, and Burgers equations.
 - Configurations are customizable through `.yaml` files for flexible testing of different setups.
 
+- Navier–Stokes flow in a torus
+![Predicted vs True solution for 2 secs](results/visuals/ns_stokes/normflow_2secs.gif)
+
 ---
 
 ## Table of Contents
@@ -67,23 +70,3 @@ Stores YAML configuration files for various experiments and PDE setups.
 - **Key Files:**
   - `increase_freq_*.yaml`: Configurations for experiments with varying frequencies.
   - `SWEEP_*.yaml`: Sweeping configurations for broader experiments.
-
----
-
-### Usage Instructions
-
-1. **Clone the repository** and run the script `run_python.sh` (for Linux/Mac) or `run_python.bat` (for Windows). This will create a new Python environment called `my_new_env`.
-   
-   - **For Linux/Mac**: Run `run_python.sh` from the terminal with the desired Python file path:
-     ```bash
-     bash run_python.sh pikan/pde_utils.py
-     ```
-   
-   - **For Windows**: Run `run_python.bat` from Command Prompt with the desired Python file path: (Maybe this does not work I dont have Windows)
-     ```batch
-     run_python.bat pikan\pde_utils.py
-     ```
-
-2. **Activate the environment** `my_new_env` in your preferred IDE (e.g., VSCode), and run a Jupyter notebook, such as `Interpolation.ipynb`, to begin experimenting.
-
----

@@ -12,10 +12,10 @@ This repository contains implementations and experiments focused on function int
 ### PINNs:
 - Solutions for Helmholtz, Heat, and Burgers equations.
 - Configurations are customizable through `.yaml` files for flexible testing of different setups.
-
 - Navier–Stokes flow in a torus
-![Predicted vs True solution for 2 secs](results/visuals/ns_stokes/normflow_2secs.gif)
 
+![NS flow on torus](results/visuals/ns_stokes/normflow_2secs.gif)
+*Figure 2: PINN solution to Navier–Stokes flow in a torus.*
 ---
 
 ## Table of Contents

@@ -16,7 +16,6 @@ This repository contains implementations and experiments focused on function int
 
 ![NS flow on torus](results/visuals/ns_stokes/normflow_2secs.gif)
 *Figure 2: PINN solution to Navier–Stokes flow in a torus.*
----
 
 ## Table of Contents
 

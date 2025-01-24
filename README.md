@@ -6,8 +6,10 @@ This repository contains implementations and experiments focused on function int
 - Evaluation of PIRATE, KAN, and MLP architectures with and without Fourier features to examine spectral bias towards low-frequency functions.
 - Experiments comparing parameter efficiency, with KANs tested for their claimed advantage in this area.
 
+![Increase freq Fourier](results/visuals/increase_freq_nofourier/increase_freq_10_plot.png)
+*Figure 1: Neural networks struggle to learn high frequency components.*
 ![Increase freq Fourier](results/visuals/increase_freq_PIRATE/increase_freq_10_plot.png)
-*Figure 1: Fourier Features ease the spectral bias allowing learning of high frequency components.*
+*Figure 2: Fourier Features ease the spectral bias allowing the learning of high frequency components.*
 
 ### PINNs:
 - Solutions for Helmholtz, Heat, and Burgers equations.

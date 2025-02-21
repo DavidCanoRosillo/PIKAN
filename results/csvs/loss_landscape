@@ -1,0 +1,5 @@
+,BS,EPOCHS,FREQ,learnable_func,FourierFeatures,MODEL,layers,N_INPUT,X_MIN,X_MAX,Y_MIN,Y_MAX,params,L2%,seconds
+trained,1024,500,10,circular_wave_interference,True,MLP,"[128, 128, 128, 128]",2,-1,1,-1,1,49857,16.351141,3.726201057434082
+untrained,1024,0,10,circular_wave_interference,False,MLP,"[128, 128, 128, 128]",2,-1,1,-1,1,50049,101.40143,0.06416702270507812
+trained_no_fourier,1024,500,10,circular_wave_interference,False,MLP,"[128, 128, 128, 128]",2,-1,1,-1,1,50049,100.08314,2.7583210468292236
+super_deep,1024,500,10,circular_wave_interference,True,MLP,"[16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]",2,-1,1,-1,1,12825,100.082306,8.169449806213379

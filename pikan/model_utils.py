@@ -11,7 +11,7 @@ from scipy.stats.qmc import Sobol
 import numpy as np
 import matplotlib.pyplot as plt
 import time
-# from jaxkan.models.KAN import KAN
+from jaxkan.models.KAN import KAN
 
 class FourierFeats(nn.Module):
     num_output: int
@@ -35,7 +35,7 @@ class FourierFeats(nn.Module):
             
         return x
 
-"""    
+
 class FourierKAN(nn.Module):
     kernel_init: Callable
     num_input: int
@@ -59,7 +59,7 @@ class FourierKAN(nn.Module):
         y, spl_regs = model(x)
         
         return y
-"""
+
 
 class GeneralizedMLP(nn.Module):
     kernel_init: Callable
